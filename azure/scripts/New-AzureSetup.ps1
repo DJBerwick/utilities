@@ -104,7 +104,7 @@ if ($null -eq $LoggedIn) {
     Write-Host "Already logged in, continuing..." -ForegroundColor Black -BackgroundColor Green
 
     # Get current user's Object ID from the context
-    $currentUserObjectId = $(Get-AzADUser -UserPrincipalName (Get-AzContext).Account).Id
+    $currentUserObjectId = $(Get-AzADUser -signedIn).Id
 
     # Fetch RBAC assignments for the current user in the current subscription
     $roleAssignments = Get-AzRoleAssignment -ObjectId $currentUserObjectId
@@ -450,7 +450,7 @@ $spokeSaName = ConvertTo-SecureString "$StorageAccountName" -AsPlainText -Force
 $spokeSaPrimaryKey = ConvertTo-SecureString "$StorageKey1" -AsPlainText -Force
 $spokeSaSecondarykey = ConvertTo-SecureString "$StorageKey2" -AsPlainText -Force
 $spokeSaBlobContainerName = ConvertTo-SecureString $BlobContainerName -AsPlainText -Force
-Set-AzKeyVaultSecret `
+
 Set-AzKeyVaultSecret `
    -VaultName $KeyvaultName `
    -Name "SpokeSaRgName" `
