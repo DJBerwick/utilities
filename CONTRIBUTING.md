@@ -43,7 +43,7 @@ terraform-docs markdown . >> README.md
 
 6. Organize all variables alphabetically. In Terraform, this can be achieved with the following utility script:
 ```shell
-curl https://raw.githubusercontent.com/djberwick/utils/main/scripts/terraform/tf-sort.sh | bash
+curl https://raw.githubusercontent.com/DJBerwick/utils/main/scripts/terraform/tf-sort.sh | bash
 ```
 7. Now, you're ready to submit your pull request!
 

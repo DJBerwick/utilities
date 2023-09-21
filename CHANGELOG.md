@@ -11,4 +11,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Alpha release of the project.
 
-[1.0.0]: https://github.com/cyber-scot/basic-repo-template/releases/tag/v1.0.0
+[1.0.0]: https://github.com/DJBerwick/basic-repo-template/releases/tag/v1.0.0
