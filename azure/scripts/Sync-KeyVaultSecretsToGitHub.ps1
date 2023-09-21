@@ -12,11 +12,11 @@ Set-StrictMode -Version Latest
 
 ########### Edit the below variables to use script ############
 
-$SubscriptionId = "CyberScot-Prd"
-$ShorthandName = "cscot"
+$SubscriptionId = "Visual Studio Professional Subscription"
+$ShorthandName = "djb"
 $ShorthandLocation = "uks"
-$ShorthandEnv = "prd"
-$GithubOrgName = "cyber-scot"
+$ShorthandEnv = "dev"
+$GithubOrgName = "DJBerwick"
 
 
 ########## Do not edit anything below unless you know what you are doing ############
