@@ -12,11 +12,11 @@
 #########################################################
 
 function stfi () {
-    curl https://raw.githubusercontent.com/cyber-scot/utilities/main/terraform/helpers/tf-sort.sh | bash -s -- variables.tf variables.tf
+    curl https://raw.githubusercontent.com/DJBerwick/utilities/main/terraform/helpers/tf-sort.sh | bash -s -- variables.tf variables.tf
 }
 
 function stfo () {
-    curl https://raw.githubusercontent.com/cyber-scot/utilities/main/terraform/helpers/tf-sort.sh | bash -s -- outputs.tf outputs.tf
+    curl https://raw.githubusercontent.com/DJBerwick/utilities/main/terraform/helpers/tf-sort.sh | bash -s -- outputs.tf outputs.tf
 }
 
 function tf-rel() {

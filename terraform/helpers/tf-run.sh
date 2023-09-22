@@ -36,7 +36,7 @@ echo "All packages are installed"
 
 # Environment Variables
 checkov_skipped_tests=""
-terraform_compliance_policy_path="git:https://github.com/cyber-scot/utilities.git//terraform/helpers/terraform-compliance-tests?ref=main"
+terraform_compliance_policy_path="git:https://github.com/DJBerwick/utilities.git//terraform/helpers/terraform-compliance-tests?ref=main"
 terraform_version="1.5.5"
 
 # Setup Tfenv and Install terraform
